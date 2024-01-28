@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.logo{
+    width: 150px;
+    display: inline-block;
+    background-color: navy;
+}
+
+.webheader{
+   position: relative;
+   top: 0;
+   left: 0;
+   width: 100%;
+   padding: 20px 100px;
+   background-color:navy;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.navBar a{
+    text-decoration: none;
+    justify-content: space-between;
+    color: white;
+    font-weight: 700;
+    font-size: large;
+    margin-left: 50px;
+}
+
+.navBar a:hover{
+    background-color: white;
+    color: navy;
+    border: 2px solid lightblue;
+    padding: 20px 5px;
+}
+
+#container{
+   position: relative;
+}
+
+.section{
+    border: solid black 3px;
+}
+
+#topPhrase{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    background-image: url("../images/ITteam.jpg");
+    padding-top: 300px;
+    padding-bottom: 300px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: white;
+    text-shadow: 4px 4px 6px #000000;
+}
+
+.backgroundsect1{
+    max-width: 100%;
+    height: auto;
+}
+
+.midsect{
+    text-align: center;
+    font-size: 30px;
+    padding: 50px 500px 150px;
+}
+
+.yellow{
+    background-color:antiquewhite;
+    color: gray
+}
+
+.sect{
+    padding: 50px 600px 200px;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blue{
+    background-color: #2B35AF;
+    color: white;
+}
+
+.sect ul{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.sect ul li{
+    padding: 20px;
+}
+
+.subtitle{
+    padding-bottom: 50px;
+    font-size: 50px;
+    color:burlywood;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.rightIMG{
+    height: 408px;
+    width: 612px;
+    margin-right: 80px;
+    margin-top: 60px;
+}
