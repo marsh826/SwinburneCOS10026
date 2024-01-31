@@ -15,7 +15,6 @@
    position: relative;
    top: 0;
    left: 0;
-   width: 100%;
    padding: 20px 100px;
    background-color:navy;
    display: flex;
@@ -37,6 +36,7 @@
     color: navy;
     border: 2px solid lightblue;
     padding: 20px 5px;
+    text-decoration: underline;
 }
 
 #container{
@@ -58,11 +58,6 @@
     background-size:cover;
     color: white;
     text-shadow: 4px 4px 6px #000000;
-}
-
-.backgroundsect1{
-    max-width: 100%;
-    height: auto;
 }
 
 .midsect{
@@ -111,3 +106,106 @@
     margin-right: 80px;
     margin-top: 60px;
 }
+
+.bold-catch{
+    font-size: 60px;
+    color:darksalmon;
+    padding-top: 5px;
+    padding-bottom: 50px;
+}
+
+.bold-catch a {
+    text-decoration: none;
+    color: darksalmon;
+}
+
+.bold-catch a:hover {
+    color: navy
+}
+
+.minilogo{
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    text-align: center;
+}
+
+.foot{
+    align-items: center;
+    position: relative;
+    width: 100%;
+    padding: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 25px;
+}
+
+.foot a{
+    text-decoration: none;
+    color:white;
+}
+
+.foot a:hover{
+    background-color: white;
+    color: navy;
+    border: 2px solid lightblue;
+    padding: 20px 5px;
+    text-decoration: underline;
+}
+
+#otherdesc{
+    display:none;
+}
+
+#otherskills[type=checkbox]:checked ~ #otherdesc{
+    display: block;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    /* width: 1050px; */
+    background-color: snow;
+    padding-top: 300px;
+    padding: 50px;
+    border: 10px solid black;
+    width: 45%;
+}
+
+.form-box{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: black;
+    width: 100%;
+}
+
+.pad30{
+    padding: 30px;
+}
+
+.pad10 {
+    padding: 10px;
+}
+
+.box h1 {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.button-container{
+    padding-left: 80px;
+    margin-left: 600px;   
+}
+
+form button {
+    margin-top: 15px;
+}
+
+.width100 {
+    width: 100%;
+}
+
